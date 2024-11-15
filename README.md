@@ -62,6 +62,7 @@ The ft_printf function utilizes format specifiers and variadic arguments. It pro
 
 int main()
 {
+    
     char *str;
     
     int  i;
@@ -71,6 +72,7 @@ int main()
     
     ft_printf("Hello, %s! Today is the %d day.", str, i);
     return 0;
+    
 }
 
 The function substitutes the values provided for the placeholders in the format string and prints the resulting output to the console.
