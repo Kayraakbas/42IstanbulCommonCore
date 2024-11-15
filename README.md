@@ -63,6 +63,7 @@ The ft_printf function utilizes format specifiers and variadic arguments. It pro
 int main()
 {
     char *str;
+    
     int  i;
 
     str = "World";
