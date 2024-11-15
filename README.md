@@ -77,3 +77,7 @@ int main()
 
 The function substitutes the values provided for the placeholders in the format string and prints the resulting output to the console.
 
+### What I learned ?
+Variadic Functions
+
+A key component of this project is learning variadic functions in C. These functions enable handling multiple parameters of varying types, making them perfect for implementing a versatile printf-like function. The va_list, va_start, va_arg, and va_end macros are crucial in processing variadic arguments, and i needed to use them extensively in this project.
